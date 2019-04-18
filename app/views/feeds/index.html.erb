@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>Name</th>
       <th>Image</th>
       <th>Content</th>
       <th colspan="3"></th>
@@ -14,6 +15,7 @@
   <tbody>
     <% @feeds.each do |feed| %>
       <tr>
+        <td><%= feed.user.user_name %></td>
         <td><%= image_tag "#{feed.image}", :size =>'200x200' %></td>
         <td><%= feed.content %></td>
         <td><%= link_to 'Show', feed %></td>

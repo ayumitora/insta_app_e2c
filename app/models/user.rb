@@ -6,4 +6,5 @@ class User < ApplicationRecord
   validates :password, presence: true, length: { minimum: 6 }
   validates :profile, length: { maximum: 500 }
   has_secure_password
+  has_many :feeds
 end
