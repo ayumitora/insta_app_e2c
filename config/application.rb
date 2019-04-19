@@ -18,6 +18,8 @@ Bundler.require(*Rails.groups)
 
 module InstaApp
   class Application < Rails::Application
+    config.time_zone = 'Tokyo'
+    config.active_record.default_timezone = :local
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
@@ -27,5 +29,9 @@ module InstaApp
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.generators do |g|
+      g.assets false
+      g.helper false
+    end
   end
 end

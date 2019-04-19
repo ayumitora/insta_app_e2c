@@ -7,4 +7,5 @@ class User < ApplicationRecord
   validates :profile, length: { maximum: 500 }
   has_secure_password
   has_many :feeds
+  has_many :favorites, dependent: :destroy
 end
