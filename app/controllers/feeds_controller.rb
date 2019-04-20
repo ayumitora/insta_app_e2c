@@ -39,6 +39,7 @@ class FeedsController < ApplicationController
 
     respond_to do |format|
       if @feed.save
+        ConfirmationMailer.confirmation_mail(@feed).deliver
         format.html { redirect_to @feed, notice: 'Feed was successfully created.' }
         format.json { render :show, status: :created, location: @feed }
       else
