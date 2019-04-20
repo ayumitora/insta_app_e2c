@@ -32,6 +32,7 @@ module InstaApp
     config.generators do |g|
       g.assets false
       g.helper false
+      config.i18n.default_locale = :ja
     end
   end
 end
