@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_action :ensure_correct_user, only: [:edit, :update, :destroy]
 
   def show
     @user = User.find(params[:id])
@@ -33,7 +34,6 @@ class UsersController < ApplicationController
   def like_feeds
     @user = User.find(params[:id])
     @favorites = current_user.favorite_feeds.all
-
   end
 
   private
@@ -41,5 +41,11 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:user_name, :email, :password,
                                  :password_confirmation, :profile)
+  end
+
+  def ensure_correct_user
+    if current_user.id != params[:id].to_i
+      redirect_to new_session_path
+    end
   end
 end

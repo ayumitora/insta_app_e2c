@@ -1,19 +1,11 @@
 <h1><%= @user.user_name %>のお気に入り一覧</h1>
 
 <table>
-  <thead>
-  <tr>
-    <th>Name</th>
-    <th>Image</th>
-    <th>Content</th>
-  </tr>
-  </thead>
-
   <tbody>
   <% @favorites.each do |feed| %>
     <tr>
       <td><%= feed.user.user_name %></td>
-      <td><%= image_tag "#{feed.image}", :size => '100x100' %></td>
+      <td><%= image_tag "#{feed.image}" %></td>
       <td><%= feed.content %></td>
       <td><%= link_to 'Show', feed %></td>
     </tr>

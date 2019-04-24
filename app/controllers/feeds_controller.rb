@@ -1,5 +1,6 @@
 class FeedsController < ApplicationController
   before_action :set_feed, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user, only: [:edit, :update, :destroy]
 
   # GET /feeds
   # GET /feeds.json
@@ -82,5 +83,12 @@ class FeedsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
   def feed_params
     params.require(:feed).permit(:image, :image_cache, :content)
+  end
+
+  def authenticate_user
+    if current_user == nil
+      flash[:notice] = "編集、削除の権限はありません"
+      redirect_to feeds_path
+    end
   end
 end

@@ -9,15 +9,30 @@
   </head>
 
   <body>
-   <% if logged_in? %>
-      <%= link_to "Profile", user_path(current_user.id) %>
-      <%= link_to "Logout", session_path(current_user.id), method: :delete %>
-    <%= link_to "Like Feeds", like_feeds_user_path(current_user.id) %>
+  <header>
+    <div class="logo">
+      <%= link_to image_tag 'glyph-logo_May2016.png', :size => '40x40', action: "feeds_path" %>
+    </div>
+    <% if logged_in? %>
+      <ul>
+        <li><%= link_to 'New Feed', new_feed_path %></li>
+        <li><%= link_to "Profile", user_path(current_user.id) %></li>
+        <li><%= link_to "Logout", session_path(current_user.id), method: :delete %></li>
+        <li><%= link_to "Like Feeds", like_feeds_user_path(current_user.id) %></li>
+      </ul>
     <% else %>
-      <%= link_to "Sign up", new_user_path %>
-      <%= link_to "Login", new_session_path %>
+      <ul>
+        <li><%= link_to "Sign up", new_user_path %></li>
+        <li><%= link_to "Login", new_session_path %></li>
+      </ul>
     <% end %>
+  </header>
 
     <%= yield %>
+
+  <footer>
+    <p>insta_app</p>
+    <p>© 2019.4 あらいあゆみ</p>
+  </footer>
   </body>
 </html>
