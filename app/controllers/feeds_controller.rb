@@ -1,5 +1,5 @@
 class FeedsController < ApplicationController
-  before_action :set_feed, only: [:show, :edit, :update, :destroy]
+  before_action :set_feed, only: [:show, :edit, :update, :destroy, :authenticate_user]
   before_action :authenticate_user, only: [:edit, :update, :destroy]
 
   # GET /feeds
@@ -86,7 +86,8 @@ class FeedsController < ApplicationController
   end
 
   def authenticate_user
-    if current_user == nil
+    if current_user != @feed.user
+      # if current_user == params[:id].to_i
       flash[:notice] = "編集、削除の権限はありません"
       redirect_to feeds_path
     end
