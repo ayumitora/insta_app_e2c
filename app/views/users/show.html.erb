@@ -8,9 +8,9 @@
 <p>メールアドレス: <%= @user.email %></p>
 
 <p>プロフィール: <%= @user.profile %></p><br><br>
-<%# if @user.id == current_user.id %>
-<!--  <%#= link_to "ユーザー情報を編集する", edit_user_path(@user) %><br>-->
-<!--  <%#= link_to "ユーザーを削除する", @user, method: :delete, data: {confirm: 'Are you sure?'} %><br>-->
-<%# else %>
-<%#= link_to '投稿一覧へ', feeds_path %>
-<%# end %>
+<% if @user.id == current_user.id %>
+  <%= link_to "ユーザー情報を編集する", edit_user_path(@user) %><br>
+  <%= link_to "ユーザーを削除する", @user, method: :delete, data: {confirm: 'Are you sure?'} %><br>
+<% else %>
+  <%= link_to '投稿一覧へ', feeds_path %>
+<% end %>
