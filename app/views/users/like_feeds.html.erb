@@ -1,5 +1,7 @@
 <h1><%= @user.user_name %>のお気に入り一覧</h1>
-
+<div class="icon-user">
+  <%= image_tag "#{@user.image}" %>
+</div>
 <table>
   <tbody>
   <% @favorites.each do |feed| %>

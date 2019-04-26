@@ -9,4 +9,5 @@ class User < ApplicationRecord
   has_many :feeds
   has_many :favorites, dependent: :destroy
   has_many :favorite_feeds, through: :favorites, source: :feed
+  mount_uploader :image, ImageUploader
 end

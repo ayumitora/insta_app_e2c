@@ -1,11 +1,16 @@
 <% if @user.id == current_user.id %>
   <h1><%= @user.user_name %>のページ</h1>
 
+  <div class="icon-user">
+    <%= image_tag "#{@user.image}" %>
+  </div>
+
+
   <p>メールアドレス: <%= @user.email %></p>
 
-  <p>プロフィール: <%= @user.profile %></p>
-  <%= link_to "ユーザー情報を編集する", edit_user_path(@user) %>
-  <%= link_to "ユーザーを削除する", @user, method: :delete, data: {confirm: 'Are you sure?'} %>
+  <p>プロフィール: <%= @user.profile %></p><br><br>
+  <%= link_to "ユーザー情報を編集する", edit_user_path(@user) %><br>
+  <%= link_to "ユーザーを削除する", @user, method: :delete, data: {confirm: 'Are you sure?'} %><br>
   <%= link_to '投稿一覧へ', feeds_path %>
 <% else %>
   <h4>他ユーザーのページです。表示できません。</h4>
