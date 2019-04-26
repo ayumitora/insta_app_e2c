@@ -1,0 +1,84 @@
+{
+  "files": {
+    "letter_opener_web/application-18212a259b38232d7d6c9827c9ba14c462584872bebb959353cb8159fe9abb0f.js": {
+      "logical_path": "letter_opener_web/application.js",
+      "mtime": "2019-03-27T16:00:14+09:00",
+      "size": 115050,
+      "digest": "18212a259b38232d7d6c9827c9ba14c462584872bebb959353cb8159fe9abb0f",
+      "integrity": "sha256-GCEqJZs4Iy19bJgnyboUxGJYSHK+u5WTU8uBWf6auw8="
+    },
+    "letter_opener_web/application-d6091736695b89409036a9fc1401434067c82d5f743cdd22445da6751c02f6b3.css": {
+      "logical_path": "letter_opener_web/application.css",
+      "mtime": "2019-03-27T16:00:14+09:00",
+      "size": 104177,
+      "digest": "d6091736695b89409036a9fc1401434067c82d5f743cdd22445da6751c02f6b3",
+      "integrity": "sha256-1gkXNmlbiUCQNqn8FAFDQGfILV90PN0iRF2mdRwC9rM="
+    },
+    "letter_opener_web/glyphicons-halflings-d99e3fa32c641032f08149914b28c2dc6acf2ec62f70987f2259eabbfa7fc0de.png": {
+      "logical_path": "letter_opener_web/glyphicons-halflings.png",
+      "mtime": "2019-03-27T16:00:14+09:00",
+      "size": 12799,
+      "digest": "d99e3fa32c641032f08149914b28c2dc6acf2ec62f70987f2259eabbfa7fc0de",
+      "integrity": "sha256-2Z4/oyxkEDLwgUmRSyjC3GrPLsYvcJh/Ilnqu/p/wN4="
+    },
+    "letter_opener_web/glyphicons-halflings-white-f0e0d95a9c8abcdfabf46348e2d4285829bb0491f5f6af0e05af52bffb6324c4.png": {
+      "logical_path": "letter_opener_web/glyphicons-halflings-white.png",
+      "mtime": "2019-03-27T16:00:14+09:00",
+      "size": 8777,
+      "digest": "f0e0d95a9c8abcdfabf46348e2d4285829bb0491f5f6af0e05af52bffb6324c4",
+      "integrity": "sha256-8ODZWpyKvN+r9GNI4tQoWCm7BJH19q8OBa9Sv/tjJMQ="
+    },
+    "letter_opener_web/blue-dot-386853f057233231c1ef730759cdacc4bc8d79089bc53a82de04c37346eeae6f.ico": {
+      "logical_path": "letter_opener_web/blue-dot.ico",
+      "mtime": "2019-03-27T16:00:14+09:00",
+      "size": 6518,
+      "digest": "386853f057233231c1ef730759cdacc4bc8d79089bc53a82de04c37346eeae6f",
+      "integrity": "sha256-OGhT8FcjMjHB73MHWc2sxLyNeQibxTqC3gTDc0burm8="
+    },
+    "glyph-logo_May2016-afa797968f674f8c08f347e6cf7136c748d63db3c428352be28753bf45eb0cfa.png": {
+      "logical_path": "glyph-logo_May2016.png",
+      "mtime": "2016-05-10T04:22:46+09:00",
+      "size": 12224,
+      "digest": "afa797968f674f8c08f347e6cf7136c748d63db3c428352be28753bf45eb0cfa",
+      "integrity": "sha256-r6eXlo9nT4wI80fmz3E2x0jWPbPEKDUr4odTv0XrDPo="
+    },
+    "application-6ca81582f881d934276caaaac3606c29259d3bb0c133f24b9d9f6dbce12f604e.js": {
+      "logical_path": "application.js",
+      "mtime": "2019-04-26T10:49:57+09:00",
+      "size": 699931,
+      "digest": "6ca81582f881d934276caaaac3606c29259d3bb0c133f24b9d9f6dbce12f604e",
+      "integrity": "sha256-bKgVgviB2TQnbKqqw2BsKSWdO7DBM/JLnZ9tvOEvYE4="
+    },
+    "application-5517cf14442b08242f7da8bbe7ba7dd1518e709bcfed0a28adbde9215ad05730.css": {
+      "logical_path": "application.css",
+      "mtime": "2019-04-26T10:27:55+09:00",
+      "size": 126473,
+      "digest": "5517cf14442b08242f7da8bbe7ba7dd1518e709bcfed0a28adbde9215ad05730",
+      "integrity": "sha256-VRfPFEQrCCQvfai757p90VGOcJvP7Qoorb3pIVrQVzA="
+    },
+    "application-9376d164f1cb2088ab8918712f4111e7adcd211d7d5ac0f25ede78dc71e37690.js": {
+      "logical_path": "application.js",
+      "mtime": "2019-04-26T10:49:57+09:00",
+      "size": 288139,
+      "digest": "9376d164f1cb2088ab8918712f4111e7adcd211d7d5ac0f25ede78dc71e37690",
+      "integrity": "sha256-k3bRZPHLIIiriRhxL0ER563NIR19WsDyXt543HHjdpA="
+    },
+    "application-8037721564883a8a09e3cabafbc2ee769a9dd1627e565ae2a4107b1d4dc7c560.css": {
+      "logical_path": "application.css",
+      "mtime": "2019-04-26T10:27:55+09:00",
+      "size": 123836,
+      "digest": "8037721564883a8a09e3cabafbc2ee769a9dd1627e565ae2a4107b1d4dc7c560",
+      "integrity": "sha256-gDdyFWSIOooJ48q6+8Ludpqd0WJ+VlripBB7HU3HxWA="
+    }
+  },
+  "assets": {
+    "letter_opener_web/application.js": "letter_opener_web/application-18212a259b38232d7d6c9827c9ba14c462584872bebb959353cb8159fe9abb0f.js",
+    "letter_opener_web/application.css": "letter_opener_web/application-d6091736695b89409036a9fc1401434067c82d5f743cdd22445da6751c02f6b3.css",
+    "letter_opener_web/glyphicons-halflings.png": "letter_opener_web/glyphicons-halflings-d99e3fa32c641032f08149914b28c2dc6acf2ec62f70987f2259eabbfa7fc0de.png",
+    "letter_opener_web/glyphicons-halflings-white.png": "letter_opener_web/glyphicons-halflings-white-f0e0d95a9c8abcdfabf46348e2d4285829bb0491f5f6af0e05af52bffb6324c4.png",
+    "letter_opener_web/blue-dot.ico": "letter_opener_web/blue-dot-386853f057233231c1ef730759cdacc4bc8d79089bc53a82de04c37346eeae6f.ico",
+    "glyph-logo_May2016.png": "glyph-logo_May2016-afa797968f674f8c08f347e6cf7136c748d63db3c428352be28753bf45eb0cfa.png",
+    "application.js": "application-9376d164f1cb2088ab8918712f4111e7adcd211d7d5ac0f25ede78dc71e37690.js",
+    "application.css": "application-8037721564883a8a09e3cabafbc2ee769a9dd1627e565ae2a4107b1d4dc7c560.css"
+  }
+}
