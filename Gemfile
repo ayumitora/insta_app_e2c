@@ -41,3 +41,6 @@ gem 'faker'
 gem 'pry-rails'
 gem 'better_errors'
 gem 'binding_of_caller'
+
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
