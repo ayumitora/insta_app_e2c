@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Insta_app@Development__Insta_app.rcov" NAME="Development: Insta_app Coverage Results" MODIFIED="1556323678579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Insta_app" />
+    <SUITE FILE_PATH="coverage/Insta_app@Development__Insta_app.rcov" NAME="Development: Insta_app Coverage Results" MODIFIED="1556327889937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Insta_app" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="24" selection-start-line="14" selection-end-line="15" />
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -382,7 +382,7 @@
       <workItem from="1556154877147" duration="10796000" />
       <workItem from="1556238675225" duration="13936000" />
       <workItem from="1556264935070" duration="1011000" />
-      <workItem from="1556323340745" duration="580000" />
+      <workItem from="1556323340745" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="アソシエーション一対多">
       <created>1555556802969</created>
@@ -503,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556260131098</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="usersコントローラーのshowをテキストどうりに修正">
+      <created>1556324053654</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1556324053654</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89207000" />
+    <option name="totallyTimeSpent" value="90758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,7 +592,8 @@
     <MESSAGE value="config/application.rb&#10;config.assets.initialize_on_precompile = false⇨trueの変更&#10;RAILS_ENV=production bundle exec rake assets:precompileの実行" />
     <MESSAGE value="質問するためにconfig/environments/production.rbにて&#10;       config.consider_all_requests_local = true&#10;       に設定" />
     <MESSAGE value="問題の箇所のコメントアウト解除" />
-    <option name="LAST_COMMIT_MESSAGE" value="問題の箇所のコメントアウト解除" />
+    <MESSAGE value="usersコントローラーのshowをテキストどうりに修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="usersコントローラーのshowをテキストどうりに修正" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -890,7 +898,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="24" selection-start-line="14" selection-end-line="15" />
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
