@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ead5eab-5c9f-42d1-8ca5-afb5db3ec3c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/1/スクリーンショット_2019-04-26_16.24.06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/2/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/3/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/4/スクリーンショット_2019-04-26_16.20.36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/5/スクリーンショット_2019-04-26_16.20.36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/6/スクリーンショット_2019-04-26_16.20.36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/7/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/8/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/9/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="8ead5eab-5c9f-42d1-8ca5-afb5db3ec3c0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +35,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="46" />
+              <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -96,15 +93,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -404,7 +392,7 @@
       <workItem from="1556323340745" duration="2641000" />
       <workItem from="1556328668866" duration="4155000" />
       <workItem from="1556593560966" duration="2654000" />
-      <workItem from="1557195660553" duration="4043000" />
+      <workItem from="1557195660553" duration="5333000" />
     </task>
     <task id="LOCAL-00001" summary="アソシエーション一対多">
       <created>1555556802969</created>
@@ -546,11 +534,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557198627803</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="@confirmation.imageの式展開によるエラー解決">
+      <created>1557200541073</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1557200541073</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102120000" />
+    <option name="totallyTimeSpent" value="103410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,7 +560,7 @@
     <frame x="0" y="23" width="687" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.29302326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.29302326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010707" side_tool="true" weight="0.19627193" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -578,7 +573,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49327356" visible="true" weight="0.40509555" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49327356" visible="true" weight="0.40509555" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50672644" side_tool="true" weight="0.96178347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -632,7 +627,8 @@
     <MESSAGE value="usersコントローラーのshowをテキストどうりに修正" />
     <MESSAGE value="usersコントローラーにsession代入追記" />
     <MESSAGE value="bundle update" />
-    <option name="LAST_COMMIT_MESSAGE" value="bundle update" />
+    <MESSAGE value="@confirmation.imageの式展開によるエラー解決" />
+    <option name="LAST_COMMIT_MESSAGE" value="@confirmation.imageの式展開によるエラー解決" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -893,13 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -972,7 +961,14 @@
     <entry file="file://$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="46" />
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="43" />
         </state>
       </provider>
     </entry>
