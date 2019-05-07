@@ -9,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Insta_app@Development__Insta_app.rcov" NAME="Development: Insta_app Coverage Results" MODIFIED="1557196372106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Insta_app" />
+    <SUITE FILE_PATH="coverage/Insta_app@Development__Insta_app.rcov" NAME="Development: Insta_app Coverage Results" MODIFIED="1557205829166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Insta_app" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Insta_app" />
@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="43" />
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -153,10 +153,10 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -168,6 +168,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="687" />
     <option name="height" value="877" />
@@ -392,7 +393,7 @@
       <workItem from="1556323340745" duration="2641000" />
       <workItem from="1556328668866" duration="4155000" />
       <workItem from="1556593560966" duration="2654000" />
-      <workItem from="1557195660553" duration="5333000" />
+      <workItem from="1557195660553" duration="5746000" />
     </task>
     <task id="LOCAL-00001" summary="アソシエーション一対多">
       <created>1555556802969</created>
@@ -541,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557200541073</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="本番環境のエラーメッセージ表示">
+      <created>1557202145955</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1557202145955</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103410000" />
+    <option name="totallyTimeSpent" value="103823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,15 +565,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="687" height="877" extended-state="0" />
+    <frame x="4" y="23" width="687" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.29302326" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.29302326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010707" side_tool="true" weight="0.19627193" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.498503" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497006" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497006" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,7 +581,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49327356" visible="true" weight="0.40509555" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49327356" weight="0.40509555" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50672644" side_tool="true" weight="0.96178347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -628,7 +636,8 @@
     <MESSAGE value="usersコントローラーにsession代入追記" />
     <MESSAGE value="bundle update" />
     <MESSAGE value="@confirmation.imageの式展開によるエラー解決" />
-    <option name="LAST_COMMIT_MESSAGE" value="@confirmation.imageの式展開によるエラー解決" />
+    <MESSAGE value="本番環境のエラーメッセージ表示" />
+    <option name="LAST_COMMIT_MESSAGE" value="本番環境のエラーメッセージ表示" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -968,7 +977,7 @@
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="43" />
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
