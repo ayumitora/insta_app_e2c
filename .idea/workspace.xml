@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ead5eab-5c9f-42d1-8ca5-afb5db3ec3c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/user/image/1/スクリーンショット_2019-01-24_9.45.38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/user/image/4/スクリーンショット_2019-04-26_16.24.06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/user/image/6/スクリーンショット_2019-04-26_16.20.36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/1/スクリーンショット_2019-04-26_16.24.06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/2/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/3/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/4/スクリーンショット_2019-04-26_16.20.36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/5/スクリーンショット_2019-04-26_16.20.36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/6/スクリーンショット_2019-04-26_16.20.36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/7/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/8/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/feed/image/9/スクリーンショット_2019-04-26_16.23.48.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="153">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -39,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -79,7 +86,7 @@
         <entry file="file://$USER_HOME$/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionview-5.2.2/lib/action_view/model_naming.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -88,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/app/mailers/confirmation_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -124,7 +131,6 @@
         <option value="$PROJECT_DIR$/app/helpers/feeds_helper.rb" />
         <option value="$PROJECT_DIR$/app/models/favorite.rb" />
         <option value="$PROJECT_DIR$/app/controllers/favorites_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/mailers/confirmation_mailer.rb" />
         <option value="$PROJECT_DIR$/config/environments/locale.rb" />
@@ -162,6 +168,7 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb" />
       </list>
     </option>
   </component>
@@ -207,6 +214,19 @@
               <item name="Insta_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Insta_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insta_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Insta_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insta_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="confirmation_mailer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Insta_app" type="b2602c69:ProjectViewProjectNode" />
@@ -384,7 +404,7 @@
       <workItem from="1556323340745" duration="2641000" />
       <workItem from="1556328668866" duration="4155000" />
       <workItem from="1556593560966" duration="2654000" />
-      <workItem from="1557195660553" duration="2610000" />
+      <workItem from="1557195660553" duration="4043000" />
     </task>
     <task id="LOCAL-00001" summary="アソシエーション一対多">
       <created>1555556802969</created>
@@ -519,11 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556595396255</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="bundle update">
+      <created>1557198627803</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557198627803</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100687000" />
+    <option name="totallyTimeSpent" value="102120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,6 +563,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="687" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.29302326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -603,7 +631,8 @@
     <MESSAGE value="問題の箇所のコメントアウト解除" />
     <MESSAGE value="usersコントローラーのshowをテキストどうりに修正" />
     <MESSAGE value="usersコントローラーにsession代入追記" />
-    <option name="LAST_COMMIT_MESSAGE" value="usersコントローラーにsession代入追記" />
+    <MESSAGE value="bundle update" />
+    <option name="LAST_COMMIT_MESSAGE" value="bundle update" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -881,20 +910,6 @@
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -915,14 +930,14 @@
     <entry file="file://$PROJECT_DIR$/app/mailers/confirmation_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionview-5.2.2/lib/action_view/model_naming.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -942,8 +957,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="153">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/confirmation_mailer/confirmation_mail.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
