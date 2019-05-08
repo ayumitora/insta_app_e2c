@@ -37,7 +37,6 @@ class FeedsController < ApplicationController
   def create
     @feed = Feed.new(feed_params)
     @feed.user_id = current_user.id
-
     respond_to do |format|
       if @feed.save
         ConfirmationMailer.confirmation_mail(@feed).deliver
