@@ -37,6 +37,11 @@ class UsersController < ApplicationController
     @favorites = current_user.favorite_feeds.all
   end
 
+  def destroy
+    User.find(params[:id]).destroy
+    redirect_to new_user_path, notice: "ユーザーを削除しました。"
+  end
+
   private
 
   def user_params
