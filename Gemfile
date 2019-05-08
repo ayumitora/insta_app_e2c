@@ -32,9 +32,7 @@ gem 'bcrypt', '3.1.11'
 gem 'carrierwave'
 gem 'mini_magick'
 
-# group :development do
-  gem 'letter_opener_web'
-# end
+gem 'letter_opener_web'
 
 gem 'rails-i18n'
 gem 'faker'
