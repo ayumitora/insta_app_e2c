@@ -5,10 +5,10 @@ lock '3.6.0'
 set :application, 'achieve'
 
 # cloneするgitのレポジトリ（xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/ayumitora/Insta_app'
+set :repo_url, 'https://github.com/ayumitora/insta_app_e2c'
 
 # deployするブランチ。デフォルトはmasterなのでなくても可。
-set :branch, ENV['BRANCH'] || 'yuji91/#01'
+set :branch, ENV['BRANCH'] || 'master'
 
 # deploy先のディレクトリ。
 set :deploy_to, '/var/www/achieve'
